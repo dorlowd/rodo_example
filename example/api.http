@@ -1,0 +1,8 @@
+POST http://127.0.0.1:3001/api/items
+Content-Type: application/json
+Accept: application/json
+
+{ "name": "Tomaszenko", "surname": "Testowy" }
+
+#
+DELETE http://127.0.0.1:3001/api/items/67f0e571-f69d-4d27-bb1d-3778d69c552b
